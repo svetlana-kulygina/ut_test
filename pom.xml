@@ -46,6 +46,13 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>app.ApplicationKt</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
